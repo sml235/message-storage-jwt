@@ -1,0 +1,20 @@
+INSERT INTO users VALUES (1, 'John', '123');
+INSERT INTO users VALUES (2, 'Mary', '1234');
+INSERT INTO users VALUES (3, 'Tom', 'Meow');
+INSERT INTO users VALUES (4, 'Jerry', '321');
+
+INSERT INTO messages VALUES (1, 'Hello Mary', 1);
+INSERT INTO messages VALUES (2, 'How are you?', 1);
+INSERT INTO messages VALUES (3, 'Hello...', 1);
+INSERT INTO messages VALUES (4, 'Hello John', 2);
+INSERT INTO messages VALUES (5, 'I am fine', 2);
+INSERT INTO messages VALUES (6, 'Meow', 3);
+INSERT INTO messages VALUES (7, '<Keep the silent>>', 4);
+INSERT INTO messages VALUES (8, 'Do you want to go somewhere?', 1);
+INSERT INTO messages VALUES (9, 'Don''t be silent', 1);
+INSERT INTO messages VALUES (10, 'Ask something', 1);
+INSERT INTO messages VALUES (11, 'Hello', 1);
+INSERT INTO messages VALUES (12, 'Hello!', 1);
+INSERT INTO messages VALUES (13, 'Hello!!', 1);
+INSERT INTO messages VALUES (14, 'Hello!!!', 1);
+INSERT INTO messages VALUES (15, 'Hello!!!!', 1);
