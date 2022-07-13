@@ -11,12 +11,12 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Message {
+public class MessageModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @ManyToOne
-    @JoinColumn (name="user_id")
-    private User user;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
+    private UserModel user;
     private String messageText;
 }
